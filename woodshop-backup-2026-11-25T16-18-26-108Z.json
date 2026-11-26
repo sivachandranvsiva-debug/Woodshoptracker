@@ -1,0 +1,98 @@
+{
+  "format": "woodshop-management-backup",
+  "formatVersion": 1,
+  "metadata": {
+    "backupDate": "2026-11-25T16:18:26.108Z",
+    "databaseName": "WoodShopDB",
+    "databaseVersion": 2
+  },
+  "stores": {
+    "categories": [
+      {
+        "name": "Teak Wood",
+        "nameTamil": "தேக்கு மரம்",
+        "description": "High durability premium timber",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 1
+      },
+      {
+        "name": "Rosewood",
+        "nameTamil": "ஈட்டி மரம்",
+        "description": "Heavy luxury hardwood",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 2
+      },
+      {
+        "name": "Neem Wood",
+        "nameTamil": "வேம்பு மரம்",
+        "description": "Natural insect-resistant timber",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 3
+      },
+      {
+        "name": "Mango Wood",
+        "nameTamil": "மாமரம்",
+        "description": "Light furniture & plank timber",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 4
+      },
+      {
+        "name": "Country Wood",
+        "nameTamil": "நாட்டு மரம்",
+        "description": "Versatile local structural wood",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 5
+      },
+      {
+        "name": "Pine Wood",
+        "nameTamil": "பைன் மரம்",
+        "description": "General utility softwood lumber",
+        "createdAt": "2026-11-25T16:18:00.478Z",
+        "id": 6
+      }
+    ],
+    "products": [],
+    "customers": [
+      {
+        "name": "QA Customer",
+        "phone": "5550001",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "sales": [
+      {
+        "category": "Teak Wood",
+        "customerName": "QA Customer",
+        "date": "2026-01-03",
+        "volume": 1,
+        "rate": 20,
+        "totalAmount": 20,
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "purchases": [
+      {
+        "category": "Teak Wood",
+        "supplierName": "QA Supplier",
+        "date": "2026-01-02",
+        "volume": 5,
+        "rate": 10,
+        "totalAmount": 50,
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "expenses": [
+      {
+        "category": "Transport",
+        "description": "QA expense",
+        "date": "2026-01-04",
+        "amount": 3,
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ]
+  }
+}

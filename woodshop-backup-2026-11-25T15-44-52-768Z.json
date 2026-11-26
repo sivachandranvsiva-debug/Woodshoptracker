@@ -1,0 +1,119 @@
+{
+  "format": "woodshop-management-backup",
+  "formatVersion": 1,
+  "metadata": {
+    "backupDate": "2026-11-25T15:44:52.768Z",
+    "databaseName": "WoodShopDB",
+    "databaseVersion": 2
+  },
+  "stores": {
+    "categories": [
+      {
+        "name": "Teak Wood",
+        "nameTamil": "தேக்கு மரம்",
+        "description": "High durability premium timber",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 1
+      },
+      {
+        "name": "Rosewood",
+        "nameTamil": "ஈட்டி மரம்",
+        "description": "Heavy luxury hardwood",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 2
+      },
+      {
+        "name": "Neem Wood",
+        "nameTamil": "வேம்பு மரம்",
+        "description": "Natural insect-resistant timber",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 3
+      },
+      {
+        "name": "Mango Wood",
+        "nameTamil": "மாமரம்",
+        "description": "Light furniture & plank timber",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 4
+      },
+      {
+        "name": "Country Wood",
+        "nameTamil": "நாட்டு மரம்",
+        "description": "Versatile local structural wood",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 5
+      },
+      {
+        "name": "Pine Wood",
+        "nameTamil": "பைன் மரம்",
+        "description": "General utility softwood lumber",
+        "createdAt": "2026-11-25T15:43:40.226Z",
+        "id": 6
+      },
+      {
+        "name": "QA Backup Category",
+        "nameTamil": "Backup QA",
+        "description": "test",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 7
+      }
+    ],
+    "products": [
+      {
+        "name": "QA Backup Timber",
+        "category": "Teak Wood",
+        "quantity": 1,
+        "volume": 2,
+        "rate": 50,
+        "sourceType": "manual",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "customers": [
+      {
+        "name": "QA Backup Customer",
+        "phone": "5550100",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "sales": [
+      {
+        "category": "Teak Wood",
+        "customerName": "QA Backup Customer",
+        "volume": 1,
+        "totalAmount": 120,
+        "date": "2026-01-02T03:04:05.000Z",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "purchases": [
+      {
+        "category": "Teak Wood",
+        "supplierName": "QA Backup Supplier",
+        "volume": 3,
+        "totalAmount": 150,
+        "date": "2026-01-02T03:04:05.000Z",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ],
+    "expenses": [
+      {
+        "category": "QA Backup Expense",
+        "amount": 25,
+        "date": "2026-01-02T03:04:05.000Z",
+        "createdAt": "2026-01-02T03:04:05.000Z",
+        "updatedAt": "2026-01-02T03:04:05.000Z",
+        "id": 1
+      }
+    ]
+  }
+}
